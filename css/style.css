@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+/* header */
+.header {
+  width: 100%;
+  padding: 53px 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #758bfd;
+}
+.header_nav {
+  width: calc(393 / 1440 * 100%);
+}
+.header_nav_ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header_li_a {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.58px;
+  color: #ddeaf8;
+}
+.active {
+  color: #133b3a;
+}
+.fa-circle-user {
+  font-size: 40px;
+  color: #ffffff;
+}
+/* section */
+.section {
+  width: calc(1244 / 1440 * 100%);
+  margin: 94px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+.section_main_header {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  color: #27187f;
+}
+.card_section {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+.card_article {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddeaf8;
+  width: 400px;
+  height: 354px;
+  padding: 30px;
+  border-radius: 10px;
+  align-items: end;
+  gap: 30px;
+}
+.card {
+  flex-basis: calc(345 / 1254 * 100%);
+  height: 220px;
+  border-radius: 10px;
+}
+.card_button {
+  width: 145px;
+  height: 44px;
+  background-color: #758bfd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  cursor: pointer;
+}
+/* footer */
+.footer {
+  width: 100%;
+  background-color: #758bfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0;
+}
+.footer_header {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.footer_nav {
+  width: calc(118 / 1440 * 100%);
+}
+.footer_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.social_links {
+  color: #fffaf3;
+  font-size: 18px;
+}
