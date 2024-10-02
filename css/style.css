@@ -15,7 +15,7 @@
   background-color: #758bfd;
 }
 .header_nav {
-  width: calc(393 / 1440 * 100%);
+  flex-basis: 393px
 }
 .header_nav_ul {
   display: flex;
@@ -77,6 +77,7 @@
 .card_button {
   width: 145px;
   height: 44px;
+  padding: 0;
   background-color: #758bfd;
   color: white;
   border: none;
@@ -87,6 +88,7 @@
   line-height: 32px;
   cursor: pointer;
 }
+/* აქ პედინგი გავანულე იმის გამო რომ ბათონნმა გაიკეთა 6 პიქსელი, რეალურად არაფერს ცვლიდა და სიგრძე სიგანე იგივე რჩებოდა , მაგრამ მაინც გავანულე */
 /* footer */
 .footer {
   width: 100%;
